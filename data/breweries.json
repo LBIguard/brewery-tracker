@@ -8,7 +8,17 @@
     "lat": 39.2092,
     "lng": -76.8605,
     "distance": 5,
-    "flagshipBeer": "Snip Snap (DIPA - Citra, Galaxy), Rings of Light (DDH Citra pale ale), Pillowfort (Imperial DIPA - Citra, Azacca)"
+    "flagshipBeer": "Snip Snap (DIPA - Citra, Galaxy), Rings of Light (DDH Citra pale ale), Pillowfort (Imperial DIPA - Citra, Azacca)",
+    "visited": true,
+    "visitDate": "2025-05-16",
+    "ratings": {
+      "KC": 5,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 5,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Guinness Open Gate Brewery",
@@ -19,7 +29,17 @@
     "lat": 39.2275,
     "lng": -76.6945,
     "distance": 10,
-    "flagshipBeer": "Baltimore Blonde, Guinness Draught Stout, Over the Moon Milk Stout, Barrel-Aged Stock Ale"
+    "flagshipBeer": "Baltimore Blonde, Guinness Draught Stout, Over the Moon Milk Stout, Barrel-Aged Stock Ale",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 4,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": "https://untappd.com/GuinnessOGBBalt"
   },
   {
     "name": "Burley Oak Brewing Company",
@@ -30,7 +50,17 @@
     "lat": 38.3214,
     "lng": -75.2182,
     "distance": 130,
-    "flagshipBeer": "Lost IPA (hazy), Sorry Chicky (dry-hopped sour), J.R.E.A.M. series, Fruited sours (e.g. mango apricot pineapple)"
+    "flagshipBeer": "Lost IPA (hazy), Sorry Chicky (dry-hopped sour), J.R.E.A.M. series, Fruited sours (e.g. mango apricot pineapple)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Cushwa Brewing Company",
@@ -41,7 +71,17 @@
     "lat": 39.5985,
     "lng": -77.8074,
     "distance": 70,
-    "flagshipBeer": "Cush (hazy IPA - Simcoe, Mosaic), Face Chop (DIPA), Fog At Daybreak (pale ale), Cali Cush (West Coast IPA)"
+    "flagshipBeer": "Cush (hazy IPA - Simcoe, Mosaic), Face Chop (DIPA), Fog At Daybreak (pale ale), Cali Cush (West Coast IPA)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Black Flag Brewing Co.",
@@ -52,7 +92,17 @@
     "lat": 39.1916,
     "lng": -76.8179,
     "distance": 5,
-    "flagshipBeer": "Flagship IPA, Glen Cocoa (milk stout), Brunch (coffee stout), Z Morris (blonde ale), Rainbow Road (hazy pale ale)"
+    "flagshipBeer": "Flagship IPA, Glen Cocoa (milk stout), Brunch (coffee stout), Z Morris (blonde ale), Rainbow Road (hazy pale ale)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Elder Pine Brewing & Blending Co.",
@@ -63,7 +113,17 @@
     "lat": 39.1826,
     "lng": -77.1763,
     "distance": 30,
-    "flagshipBeer": "Baltic porter, Lagers, Saisons, Barrel-aged beers, IPAs (some with Kveik yeast)"
+    "flagshipBeer": "Baltic porter, Lagers, Saisons, Barrel-aged beers, IPAs (some with Kveik yeast)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 5,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 5,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Nepenthe Brewing Co.",
@@ -74,7 +134,17 @@
     "lat": 39.3305,
     "lng": -76.6316,
     "distance": 15,
-    "flagshipBeer": "Space Jellyfish (hazy IPA - Galaxy, Motueka, Simcoe), Cryomancer (West Coast IPA), Strange Beast (rice lager)"
+    "flagshipBeer": "Space Jellyfish (hazy IPA - Galaxy, Motueka, Simcoe), Cryomancer (West Coast IPA), Strange Beast (rice lager)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Jailbreak Brewing Company",
@@ -85,7 +155,17 @@
     "lat": 39.1215,
     "lng": -76.8512,
     "distance": 10,
-    "flagshipBeer": "Feed The Monkey (hefeweizen), The Infinite (amber ale), Big Punisher (DIPA), Poor Righteous (West Coast IPA)"
+    "flagshipBeer": "Feed The Monkey (hefeweizen), The Infinite (amber ale), Big Punisher (DIPA), Poor Righteous (West Coast IPA)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Crooked Crab Brewing Company",
@@ -96,7 +176,17 @@
     "lat": 39.0845,
     "lng": -76.7001,
     "distance": 15,
-    "flagshipBeer": "Haze for Days (hazy IPA), Crooked Cream Ale, High Joltage (coffee stout), Chuck Brown Ale, Furious George (hefeweizen)"
+    "flagshipBeer": "Haze for Days (hazy IPA), Crooked Cream Ale, High Joltage (coffee stout), Chuck Brown Ale, Furious George (hefeweizen)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Heavy Seas Beer",
@@ -107,7 +197,17 @@
     "lat": 39.2353,
     "lng": -76.6798,
     "distance": 10,
-    "flagshipBeer": "Loose Cannon IPA (flagship), TropiCannon (citrus IPA), Double Cannon (DIPA), Hazy Cannon"
+    "flagshipBeer": "Loose Cannon IPA (flagship), TropiCannon (citrus IPA), Double Cannon (DIPA), Hazy Cannon",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Union Craft Brewing",
@@ -118,7 +218,17 @@
     "lat": 39.3343,
     "lng": -76.6346,
     "distance": 15,
-    "flagshipBeer": "Duckpin Pale Ale (flagship), Divine IPA, Skipjack Pilsner, Testudo Premium Lager"
+    "flagshipBeer": "Duckpin Pale Ale (flagship), Divine IPA, Skipjack Pilsner, Testudo Premium Lager",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Idiom Brewing Co.",
@@ -129,7 +239,17 @@
     "lat": 39.4143,
     "lng": -77.4047,
     "distance": 40,
-    "flagshipBeer": "Kindred Spirits (NEIPA), It's the Berries (fruited sour), Generational Gap (NEIPA), Darkest Hour (Schwarzbier)"
+    "flagshipBeer": "Kindred Spirits (NEIPA), It's the Berries (fruited sour), Generational Gap (NEIPA), Darkest Hour (Schwarzbier)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Checkerspot Brewing Company",
@@ -140,7 +260,17 @@
     "lat": 39.2746,
     "lng": -76.6208,
     "distance": 15,
-    "flagshipBeer": "Juniperus IPA, Fancy Pants (NEIPA), Hillbilly Gold (pilsner), Bird Is the Word (honey Kölsch). Gluten-reduced"
+    "flagshipBeer": "Juniperus IPA, Fancy Pants (NEIPA), Hillbilly Gold (pilsner), Bird Is the Word (honey Kölsch). Gluten-reduced",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Ten Eyck Brewing Company",
@@ -151,7 +281,17 @@
     "lat": 38.9833,
     "lng": -76.1663,
     "distance": 50,
-    "flagshipBeer": "Taildragger IPA (hazy), Tmavé Pivo (Czech dark lager - World Beer Cup bronze 2023), Side Dish (imperial brown ale), PIE. series (fruited sours)"
+    "flagshipBeer": "Taildragger IPA (hazy), Tmavé Pivo (Czech dark lager - World Beer Cup bronze 2023), Side Dish (imperial brown ale), PIE. series (fruited sours)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Brookeville Beer Farm",
@@ -162,7 +302,17 @@
     "lat": 39.1901,
     "lng": -77.0588,
     "distance": 20,
-    "flagshipBeer": "Interdependence IPA (flagship - Mosaic), Hop Envy (NEIPA), Dewpoint Pale Ale, Happenchance Whitbier"
+    "flagshipBeer": "Interdependence IPA (flagship - Mosaic), Hop Envy (NEIPA), Dewpoint Pale Ale, Happenchance Whitbier",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Waredaca Brewing Company",
@@ -171,9 +321,19 @@
     "state": "MD",
     "address": "4017 Damascus Rd, Laytonsville, MD 20882",
     "lat": 39.2185,
-    "lng": -77.1420,
+    "lng": -77.142,
     "distance": 20,
-    "flagshipBeer": "Pale Ale, Beecher IPA (estate lemon verbena), Little Dam (honey wheat), Reveille (coffee stout), Baymore (NEIPA)"
+    "flagshipBeer": "Pale Ale, Beecher IPA (estate lemon verbena), Little Dam (honey wheat), Reveille (coffee stout), Baymore (NEIPA)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Saints Row Brewing",
@@ -184,7 +344,17 @@
     "lat": 39.0853,
     "lng": -77.1537,
     "distance": 30,
-    "flagshipBeer": "Rainbow Connection (hazy IPA), That Irish Goodbye (dry stout), Free State Pilsner, Lechismo (horchata ale)"
+    "flagshipBeer": "Rainbow Connection (hazy IPA), That Irish Goodbye (dry stout), Free State Pilsner, Lechismo (horchata ale)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Evolution Craft Brewing",
@@ -195,7 +365,17 @@
     "lat": 38.3666,
     "lng": -75.5937,
     "distance": 100,
-    "flagshipBeer": "Lot No. 3 IPA (flagship), Lot No. 6 DIPA, Pine'hop'le IPA, Primal Pale Ale, Lucky 7 Porter, Rise Up Coffee Stout"
+    "flagshipBeer": "Lot No. 3 IPA (flagship), Lot No. 6 DIPA, Pine'hop'le IPA, Primal Pale Ale, Lucky 7 Porter, Rise Up Coffee Stout",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "RAR Brewing",
@@ -206,7 +386,17 @@
     "lat": 38.5732,
     "lng": -76.0777,
     "distance": 80,
-    "flagshipBeer": "Nanticoke Nectar (IPA - flagship), Groove City Hefeweizen, Pulp (hazy pale ale), Bucktown Brown, Out of Order series (fruited sours)"
+    "flagshipBeer": "Nanticoke Nectar (IPA - flagship), Groove City Hefeweizen, Pulp (hazy pale ale), Bucktown Brown, Out of Order series (fruited sours)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Brewery Fire",
@@ -217,7 +407,17 @@
     "lat": 39.6573,
     "lng": -77.1701,
     "distance": 40,
-    "flagshipBeer": "Executor IPA (flagship - West Coast), Cowabunga Dude (NEIPA), The Mangolorian (mango IPA)"
+    "flagshipBeer": "Executor IPA (flagship - West Coast), Cowabunga Dude (NEIPA), The Mangolorian (mango IPA)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Peabody Heights Brewery",
@@ -226,9 +426,19 @@
     "state": "MD",
     "address": "401 E 30th St, Baltimore, MD 21218",
     "lat": 39.3273,
-    "lng": -76.6100,
+    "lng": -76.61,
     "distance": 15,
-    "flagshipBeer": "Astrodon (hazy IPA), Mr. Trash Wheel's Lost Python Ale (session IPA), Unforgivable Curses (Belgian Tripel). Co-op"
+    "flagshipBeer": "Astrodon (hazy IPA), Mr. Trash Wheel's Lost Python Ale (session IPA), Unforgivable Curses (Belgian Tripel). Co-op",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Independent Brewing Company",
@@ -239,7 +449,17 @@
     "lat": 39.5413,
     "lng": -76.3492,
     "distance": 30,
-    "flagshipBeer": "Carpe Diem (DIPA), Blue Eyed Blonde, Cereal Killer (oatmeal stout), Straight Up Cider. Many gluten-free options"
+    "flagshipBeer": "Carpe Diem (DIPA), Blue Eyed Blonde, Cereal Killer (oatmeal stout), Straight Up Cider. Many gluten-free options",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Manor Hill Brewing",
@@ -250,7 +470,17 @@
     "lat": 39.2682,
     "lng": -76.8941,
     "distance": 5,
-    "flagshipBeer": "Manor Hill IPA, Farm Fuzz (Belgian wheat with peach). Farm brewery"
+    "flagshipBeer": "Manor Hill IPA, Farm Fuzz (Belgian wheat with peach). Farm brewery",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Eastern Shore Brewing",
@@ -261,7 +491,17 @@
     "lat": 38.7831,
     "lng": -76.2236,
     "distance": 60,
-    "flagshipBeer": "St. Michaels Ale (award-winning amber), Situation Critical IPA"
+    "flagshipBeer": "St. Michaels Ale (award-winning amber), Situation Critical IPA",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Hopkins Farm Brewery",
@@ -272,7 +512,17 @@
     "lat": 39.5594,
     "lng": -76.1368,
     "distance": 40,
-    "flagshipBeer": "Rapture (Belgian-style), Desperado Lager, HazerBeam IPA. Uses on-site barley"
+    "flagshipBeer": "Rapture (Belgian-style), Desperado Lager, HazerBeam IPA. Uses on-site barley",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Pickett Brewing Company",
@@ -283,7 +533,17 @@
     "lat": 39.2817,
     "lng": -76.6251,
     "distance": 15,
-    "flagshipBeer": "American and European-style ales and lagers"
+    "flagshipBeer": "American and European-style ales and lagers",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Silver Branch Brewing Company",
@@ -294,7 +554,17 @@
     "lat": 38.9958,
     "lng": -77.0263,
     "distance": 20,
-    "flagshipBeer": "Glass Castle (Czech pilsner), Dr. Juicy (NEIPA)"
+    "flagshipBeer": "Glass Castle (Czech pilsner), Dr. Juicy (NEIPA)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Attaboy Beer",
@@ -305,7 +575,17 @@
     "lat": 39.4216,
     "lng": -77.4211,
     "distance": 40,
-    "flagshipBeer": "Rotating: NEIPAs, cold IPAs, West Coast pilsners, Belgian-inspired"
+    "flagshipBeer": "Rotating: NEIPAs, cold IPAs, West Coast pilsners, Belgian-inspired",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Mully's Brewery",
@@ -313,10 +593,20 @@
     "city": "Prince Frederick",
     "state": "MD",
     "address": "141 Schooner Ln, Prince Frederick, MD 20678",
-    "lat": 38.5550,
+    "lat": 38.555,
     "lng": -76.5892,
     "distance": 60,
-    "flagshipBeer": "Blood Orange Blonde, Hazy Not Lazy IPA, Shucker Stout, FruiTart series"
+    "flagshipBeer": "Blood Orange Blonde, Hazy Not Lazy IPA, Shucker Stout, FruiTart series",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Streetcar 82 Brewing Co.",
@@ -327,7 +617,17 @@
     "lat": 38.9534,
     "lng": -76.9407,
     "distance": 20,
-    "flagshipBeer": "Fancy Nancy Hazy IPA, The Colonel Pilsner, Pitmaster Smoked Lager. Deaf-owned"
+    "flagshipBeer": "Fancy Nancy Hazy IPA, The Colonel Pilsner, Pitmaster Smoked Lager. Deaf-owned",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Tröegs Independent Brewing",
@@ -338,7 +638,17 @@
     "lat": 40.2866,
     "lng": -76.6513,
     "distance": 90,
-    "flagshipBeer": "Perpetual IPA (flagship), Troegenator Double Bock, Mad Elf Ale, Nimble Giant Double IPA. Over 2.4M Untappd ratings. GABF Mid-Sized Brewery of the Year"
+    "flagshipBeer": "Perpetual IPA (flagship), Troegenator Double Bock, Mad Elf Ale, Nimble Giant Double IPA. Over 2.4M Untappd ratings. GABF Mid-Sized Brewery of the Year",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Brew Gentlemen",
@@ -349,7 +659,17 @@
     "lat": 40.4013,
     "lng": -79.8695,
     "distance": 240,
-    "flagshipBeer": "General Braddock's IPA (flagship, 4.1 Untappd), Mr. Automatic porter, DoubleMex imperial stout. Untappd Community Awards medals"
+    "flagshipBeer": "General Braddock's IPA (flagship, 4.1 Untappd), Mr. Automatic porter, DoubleMex imperial stout. Untappd Community Awards medals",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Tired Hands Brewing Company",
@@ -360,7 +680,17 @@
     "lat": 40.0084,
     "lng": -75.2927,
     "distance": 100,
-    "flagshipBeer": "HopHands, Alien Church, Only Void, Milkshake IPAs. Over 1.7M Untappd ratings. Paste Magazine Top 50 (2010s)"
+    "flagshipBeer": "HopHands, Alien Church, Only Void, Milkshake IPAs. Over 1.7M Untappd ratings. Paste Magazine Top 50 (2010s)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Dancing Gnome Brewery",
@@ -371,7 +701,17 @@
     "lat": 40.4972,
     "lng": -79.9283,
     "distance": 240,
-    "flagshipBeer": "Lustra (flagship pale ale), Jam series IPAs, Black Clouds Breakfast Stout. Fern Hollow TIPA (high ratings)"
+    "flagshipBeer": "Lustra (flagship pale ale), Jam series IPAs, Black Clouds Breakfast Stout. Fern Hollow TIPA (high ratings)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Other Half Brewing",
@@ -382,7 +722,17 @@
     "lat": 39.9664,
     "lng": -75.1357,
     "distance": 100,
-    "flagshipBeer": "All Citra Everything, Green City, Forever Ever (flagships). Hazy IPAs, pastry stouts"
+    "flagshipBeer": "All Citra Everything, Green City, Forever Ever (flagships). Hazy IPAs, pastry stouts",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Hidden River Brewing Company",
@@ -393,7 +743,17 @@
     "lat": 40.2593,
     "lng": -75.7232,
     "distance": 110,
-    "flagshipBeer": "Built Upon Memory (hazy DIPA), Waiting for Ghosts (imperial stout). 28 awards (10 gold)"
+    "flagshipBeer": "Built Upon Memory (hazy DIPA), Waiting for Ghosts (imperial stout). 28 awards (10 gold)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "The Referend Bier Blendery",
@@ -402,9 +762,19 @@
     "state": "PA",
     "address": "159 Main St, Kutztown, PA 19530",
     "lat": 40.5196,
-    "lng": -75.7760,
+    "lng": -75.776,
     "distance": 120,
-    "flagshipBeer": "In Recognition (golden ale), The Years (blend). Spontaneous fermentation"
+    "flagshipBeer": "In Recognition (golden ale), The Years (blend). Spontaneous fermentation",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Fourscore Beer Company",
@@ -415,7 +785,17 @@
     "lat": 39.8219,
     "lng": -77.2304,
     "distance": 60,
-    "flagshipBeer": "Ohhhh Jeeee (hazy IPA), Schmamba (fruited sour), Hop Hat (IPA). Avg Untappd rating >4.0 (128k+ ratings)"
+    "flagshipBeer": "Ohhhh Jeeee (hazy IPA), Schmamba (fruited sour), Hop Hat (IPA). Avg Untappd rating >4.0 (128k+ ratings)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Victory Brewing Company",
@@ -426,7 +806,17 @@
     "lat": 40.0046,
     "lng": -75.6936,
     "distance": 100,
-    "flagshipBeer": "Golden Monkey, HopDevil IPA (Good Food Award, GABF medals), Prima Pils, DirtWolf DIPA"
+    "flagshipBeer": "Golden Monkey, HopDevil IPA (Good Food Award, GABF medals), Prima Pils, DirtWolf DIPA",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Fermentery Form",
@@ -437,7 +827,17 @@
     "lat": 39.9763,
     "lng": -75.1369,
     "distance": 100,
-    "flagshipBeer": "Formation, Form to Table, Formhouse. Avg Untappd rating 4.16"
+    "flagshipBeer": "Formation, Form to Table, Formhouse. Avg Untappd rating 4.16",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "South County Brewing Company",
@@ -448,7 +848,17 @@
     "lat": 39.7323,
     "lng": -76.4482,
     "distance": 50,
-    "flagshipBeer": "Peace Maker (NEIPA), Sonic Bloom (NEIPA), Virgil (Imperial Stout). Avg Untappd rating 3.99 (140k+ ratings)"
+    "flagshipBeer": "Peace Maker (NEIPA), Sonic Bloom (NEIPA), Virgil (Imperial Stout). Avg Untappd rating 3.99 (140k+ ratings)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Human Robot Brewery",
@@ -459,7 +869,17 @@
     "lat": 39.9763,
     "lng": -75.1431,
     "distance": 100,
-    "flagshipBeer": "Czech 10° (Czech pale lager - 3rd place 2023 Breweries in PA Readers' Choice), Content Therapy (juicy DIPA). Avg Untappd rating >4.0 (90k+ ratings)"
+    "flagshipBeer": "Czech 10° (Czech pale lager - 3rd place 2023 Breweries in PA Readers' Choice), Content Therapy (juicy DIPA). Avg Untappd rating >4.0 (90k+ ratings)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Forest & Main Brewing Company",
@@ -470,7 +890,17 @@
     "lat": 40.1567,
     "lng": -75.2196,
     "distance": 100,
-    "flagshipBeer": "Solaire Reserve (foeder saison), The Lady (saison). Avg Untappd rating 3.95 (165k+ ratings)"
+    "flagshipBeer": "Solaire Reserve (foeder saison), The Lady (saison). Avg Untappd rating 3.95 (165k+ ratings)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "New Trail Brewing",
@@ -481,7 +911,17 @@
     "lat": 41.2369,
     "lng": -77.0096,
     "distance": 150,
-    "flagshipBeer": "Broken Heels (Hazy IPA - flagship), Barrel Aged Moonlit (stout). Avg Untappd rating 3.95 (773k+ ratings). GABF Gold (2019)"
+    "flagshipBeer": "Broken Heels (Hazy IPA - flagship), Barrel Aged Moonlit (stout). Avg Untappd rating 3.95 (773k+ ratings). GABF Gold (2019)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Yards Brewing Company",
@@ -492,7 +932,17 @@
     "lat": 39.9608,
     "lng": -75.1449,
     "distance": 100,
-    "flagshipBeer": "Philadelphia Pale Ale (flagship), Brawler English Mild, Ales of the Revolution series"
+    "flagshipBeer": "Philadelphia Pale Ale (flagship), Brawler English Mild, Ales of the Revolution series",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Rusty Rail Brewing Company",
@@ -503,7 +953,17 @@
     "lat": 40.9153,
     "lng": -77.0491,
     "distance": 140,
-    "flagshipBeer": "Fool's Gold (Imperial Peanut Butter Hefeweizen - flagship), All Good (Hazy IPA). Avg Untappd rating 3.69 (327k+ ratings). 2017 Best of Craft Beer Awards medals"
+    "flagshipBeer": "Fool's Gold (Imperial Peanut Butter Hefeweizen - flagship), All Good (Hazy IPA). Avg Untappd rating 3.69 (327k+ ratings). 2017 Best of Craft Beer Awards medals",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Voodoo Brewery",
@@ -514,7 +974,17 @@
     "lat": 41.6415,
     "lng": -80.1525,
     "distance": 250,
-    "flagshipBeer": "Good Vibes (West Coast IPA - flagship), Voodoo Love Child (Belgian Tripel), ManBearPig (imperial stout). Lacto-Kooler (Best Beer Tampa Bay 2025). Avg Untappd rating 3.94 (567k+ ratings)"
+    "flagshipBeer": "Good Vibes (West Coast IPA - flagship), Voodoo Love Child (Belgian Tripel), ManBearPig (imperial stout). Lacto-Kooler (Best Beer Tampa Bay 2025). Avg Untappd rating 3.94 (567k+ ratings)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Levante Brewing Company",
@@ -525,7 +995,17 @@
     "lat": 39.9596,
     "lng": -75.5905,
     "distance": 100,
-    "flagshipBeer": "Cloudy & Cumbersome (NEIPA - flagship), Tickle Parts (IPA - Grand Gold Frankfurt Int'l Beer Trophy). Avg Untappd rating 3.97 (523k+ ratings)"
+    "flagshipBeer": "Cloudy & Cumbersome (NEIPA - flagship), Tickle Parts (IPA - Grand Gold Frankfurt Int'l Beer Trophy). Avg Untappd rating 3.97 (523k+ ratings)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Pizza Boy Brewing Co.",
@@ -533,10 +1013,20 @@
     "city": "Enola",
     "state": "PA",
     "address": "2240 Millennium Way, Enola, PA 17025",
-    "lat": 40.2920,
+    "lat": 40.292,
     "lng": -76.9303,
     "distance": 90,
-    "flagshipBeer": "Sunny Side Up (Double Coffee Stout), Murren River (IPA). Avg Untappd rating 3.87 (700k+ ratings)"
+    "flagshipBeer": "Sunny Side Up (Double Coffee Stout), Murren River (IPA). Avg Untappd rating 3.87 (700k+ ratings)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Grist House Craft Brewery",
@@ -547,7 +1037,17 @@
     "lat": 40.4818,
     "lng": -79.9763,
     "distance": 240,
-    "flagshipBeer": "Hazedelic Juice Grenade (NEIPA). Avg Untappd score 4.0 (250k+ ratings)"
+    "flagshipBeer": "Hazedelic Juice Grenade (NEIPA). Avg Untappd score 4.0 (250k+ ratings)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Broken Goblet Brewing",
@@ -558,7 +1058,17 @@
     "lat": 40.0733,
     "lng": -74.9539,
     "distance": 100,
-    "flagshipBeer": "Carle the Great (Russian Imperial Stout - award-winning), Harmonic Overtones (NEIPA). Avg Untappd score 3.77 (56k+ ratings)"
+    "flagshipBeer": "Carle the Great (Russian Imperial Stout - award-winning), Harmonic Overtones (NEIPA). Avg Untappd score 3.77 (56k+ ratings)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Warwick Farm Brewing",
@@ -569,7 +1079,17 @@
     "lat": 40.2536,
     "lng": -75.0731,
     "distance": 100,
-    "flagshipBeer": "DDH Electric Countach (IPA), Hills of Hops & Haze (IPA). 4 Craft Beer Marketing Awards (2024), Platinum Crushie for Coolest Taproom"
+    "flagshipBeer": "DDH Electric Countach (IPA), Hills of Hops & Haze (IPA). 4 Craft Beer Marketing Awards (2024), Platinum Crushie for Coolest Taproom",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Ever Grain Brewing Co.",
@@ -580,7 +1100,17 @@
     "lat": 40.2372,
     "lng": -76.9363,
     "distance": 90,
-    "flagshipBeer": "Fluffhead (Hefeweizen - award-winning), Joose Juicy (NEIPA). Best Can Design for Moire Eel DIPA"
+    "flagshipBeer": "Fluffhead (Hefeweizen - award-winning), Joose Juicy (NEIPA). Best Can Design for Moire Eel DIPA",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Weyerbacher Brewing Company",
@@ -588,10 +1118,20 @@
     "city": "Easton",
     "state": "PA",
     "address": "905 Line St, Easton, PA 18042",
-    "lat": 40.6870,
+    "lat": 40.687,
     "lng": -75.2323,
     "distance": 120,
-    "flagshipBeer": "Merry Monks, QUAD, Blithering Idiot, Sunday Morning Stout (top-rated PA beer). Nearly 1M Untappd ratings. 3 Untappd Community Awards (2024)"
+    "flagshipBeer": "Merry Monks, QUAD, Blithering Idiot, Sunday Morning Stout (top-rated PA beer). Nearly 1M Untappd ratings. 3 Untappd Community Awards (2024)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Sly Fox Brewing Company",
@@ -600,9 +1140,19 @@
     "state": "PA",
     "address": "520 Kimberton Rd, Phoenixville, PA 19460",
     "lat": 40.1244,
-    "lng": -75.5340,
+    "lng": -75.534,
     "distance": 100,
-    "flagshipBeer": "Pikeland Pils (GABF medal 2007), Helles Golden Lager, Grisette"
+    "flagshipBeer": "Pikeland Pils (GABF medal 2007), Helles Golden Lager, Grisette",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Collusion Tap Works",
@@ -613,7 +1163,17 @@
     "lat": 39.9638,
     "lng": -76.7271,
     "distance": 60,
-    "flagshipBeer": "Homunculus (Imperial IPA), King Cuddly (fruited sour series). World Beer Cup & GABF accolades"
+    "flagshipBeer": "Homunculus (Imperial IPA), King Cuddly (fruited sour series). World Beer Cup & GABF accolades",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Imprint Beer Company",
@@ -624,7 +1184,17 @@
     "lat": 40.2843,
     "lng": -75.2788,
     "distance": 100,
-    "flagshipBeer": "Schmoojee series (fruited sours). 500k+ Untappd ratings. Untappd Community Awards medals"
+    "flagshipBeer": "Schmoojee series (fruited sours). 500k+ Untappd ratings. Untappd Community Awards medals",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Second Sin Brewing",
@@ -635,7 +1205,17 @@
     "lat": 40.1055,
     "lng": -74.8509,
     "distance": 100,
-    "flagshipBeer": "Burgerstaxx (Hazy IPA - 1st place 2024 PA Farm Show), Tables, Lagers, & Chairs (Untappd Community Awards gold). Avg Untappd rating 4.09 (370+ beers)"
+    "flagshipBeer": "Burgerstaxx (Hazy IPA - 1st place 2024 PA Farm Show), Tables, Lagers, & Chairs (Untappd Community Awards gold). Avg Untappd rating 4.09 (370+ beers)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Free Will Brewing Co.",
@@ -646,7 +1226,17 @@
     "lat": 40.3721,
     "lng": -75.2882,
     "distance": 100,
-    "flagshipBeer": "Kragle IPA (West Coast-style), Techno IPA, Ralphius Imperial Stout. Over 600k Untappd ratings"
+    "flagshipBeer": "Kragle IPA (West Coast-style), Techno IPA, Ralphius Imperial Stout. Over 600k Untappd ratings",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "D.G. Yuengling & Son",
@@ -657,7 +1247,17 @@
     "lat": 40.6896,
     "lng": -76.1995,
     "distance": 120,
-    "flagshipBeer": "Traditional Lager (flagship), Light Lager, Black & Tan. IFEA Pinnacle Award"
+    "flagshipBeer": "Traditional Lager (flagship), Light Lager, Black & Tan. IFEA Pinnacle Award",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "The Veil Brewing Co.",
@@ -668,7 +1268,17 @@
     "lat": 37.5699,
     "lng": -77.4734,
     "distance": 140,
-    "flagshipBeer": "Master Shredder (hazy IPA - cantaloupe, orange), Crucial Taunt (DIPA - citrus, pineapple), Circle of Wolves (English Barleywine)"
+    "flagshipBeer": "Master Shredder (hazy IPA - cantaloupe, orange), Crucial Taunt (DIPA - citrus, pineapple), Circle of Wolves (English Barleywine)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Triple Crossing Brewing",
@@ -679,7 +1289,17 @@
     "lat": 37.5415,
     "lng": -77.4453,
     "distance": 140,
-    "flagshipBeer": "Falcon Smash IPA (flagship - citrus, stone fruit), Last Broadcast (DIPA), Clever Girl (American IPA)"
+    "flagshipBeer": "Falcon Smash IPA (flagship - citrus, stone fruit), Last Broadcast (DIPA), Clever Girl (American IPA)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "The Answer Brewpub",
@@ -690,7 +1310,17 @@
     "lat": 37.5925,
     "lng": -77.5137,
     "distance": 140,
-    "flagshipBeer": "Cosmic Gumbo (hazy IPA), Joose series (high-ABV fruit beers). Recognized as one of U.S. best brewpubs"
+    "flagshipBeer": "Cosmic Gumbo (hazy IPA), Joose series (high-ABV fruit beers). Recognized as one of U.S. best brewpubs",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Hardywood Park Craft Brewery",
@@ -701,7 +1331,17 @@
     "lat": 37.5664,
     "lng": -77.4644,
     "distance": 140,
-    "flagshipBeer": "Richmond Lager (flagship), Singel (Belgian blonde - flagship), VIPA, Gingerbread Stout"
+    "flagshipBeer": "Richmond Lager (flagship), Singel (Belgian blonde - flagship), VIPA, Gingerbread Stout",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Aslin Beer Company",
@@ -712,7 +1352,17 @@
     "lat": 38.8065,
     "lng": -77.1324,
     "distance": 50,
-    "flagshipBeer": "Orange Starfish (DDH IPA), Power Move (IPA), Master of Oranges"
+    "flagshipBeer": "Orange Starfish (DDH IPA), Power Move (IPA), Master of Oranges",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Port City Brewing Company",
@@ -721,9 +1371,19 @@
     "state": "VA",
     "address": "3950 Wheeler Ave, Alexandria, VA 22304",
     "lat": 38.8147,
-    "lng": -77.1080,
+    "lng": -77.108,
     "distance": 50,
-    "flagshipBeer": "Optimal Wit (flagship Belgian wheat), Monumental IPA, Port City Porter, Tidings Ale"
+    "flagshipBeer": "Optimal Wit (flagship Belgian wheat), Monumental IPA, Port City Porter, Tidings Ale",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Devils Backbone Brewing Company",
@@ -734,7 +1394,17 @@
     "lat": 37.7863,
     "lng": -79.4428,
     "distance": 170,
-    "flagshipBeer": "Vienna Lager (flagship), Eight Point IPA, Danzig Baltic Porter"
+    "flagshipBeer": "Vienna Lager (flagship), Eight Point IPA, Danzig Baltic Porter",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Blue Mountain Brewery",
@@ -745,7 +1415,17 @@
     "lat": 38.0334,
     "lng": -78.8393,
     "distance": 160,
-    "flagshipBeer": "Full Nelson Pale Ale (flagship), Kölsch 151, Dark Hollow (imperial stout)"
+    "flagshipBeer": "Full Nelson Pale Ale (flagship), Kölsch 151, Dark Hollow (imperial stout)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Big Lick Brewing Company",
@@ -756,7 +1436,17 @@
     "lat": 37.2714,
     "lng": -79.9418,
     "distance": 220,
-    "flagshipBeer": "White Bronco (NEIPA), Peace, Love & Hoppiness (imperial IPA), Popsicle Toes (milkshake IPA)"
+    "flagshipBeer": "White Bronco (NEIPA), Peace, Love & Hoppiness (imperial IPA), Popsicle Toes (milkshake IPA)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "The Virginia Beer Company",
@@ -767,7 +1457,17 @@
     "lat": 37.2674,
     "lng": -76.7004,
     "distance": 160,
-    "flagshipBeer": "Free Verse (NEIPA), Gorgeous Citra IPA, Elbow Patches (oatmeal stout)"
+    "flagshipBeer": "Free Verse (NEIPA), Gorgeous Citra IPA, Elbow Patches (oatmeal stout)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Smartmouth Brewing Co.",
@@ -778,7 +1478,17 @@
     "lat": 36.8565,
     "lng": -76.2919,
     "distance": 190,
-    "flagshipBeer": "Alter Ego Saison, Notch 9 DIPA, Safety Dance Pilsner, Savage Mondo Hazy IPA"
+    "flagshipBeer": "Alter Ego Saison, Notch 9 DIPA, Safety Dance Pilsner, Savage Mondo Hazy IPA",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Ocelot Brewing Company",
@@ -789,7 +1499,17 @@
     "lat": 38.9774,
     "lng": -77.4474,
     "distance": 40,
-    "flagshipBeer": "Mr. Kite (American IPA), Sunnyside Dweller (Pilsner - GABF gold), Misunderstood (hazy IPA)"
+    "flagshipBeer": "Mr. Kite (American IPA), Sunnyside Dweller (Pilsner - GABF gold), Misunderstood (hazy IPA)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Väsen Brewing Company",
@@ -800,7 +1520,17 @@
     "lat": 37.5666,
     "lng": -77.4726,
     "distance": 140,
-    "flagshipBeer": "Hefeweizen, Cashmere Secrets (hazy DIPA), Key Lime Sour, Neomexicanus (hazy DIPA)"
+    "flagshipBeer": "Hefeweizen, Cashmere Secrets (hazy DIPA), Key Lime Sour, Neomexicanus (hazy DIPA)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Starr Hill Brewery",
@@ -811,7 +1541,17 @@
     "lat": 38.0725,
     "lng": -78.7014,
     "distance": 15,
-    "flagshipBeer": "Northern Lights (IPA - flagship), The Love (hefeweizen), Little Red RooStarr (coffee cream stout)"
+    "flagshipBeer": "Northern Lights (IPA - flagship), The Love (hefeweizen), Little Red RooStarr (coffee cream stout)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Strangeways Brewing",
@@ -822,7 +1562,17 @@
     "lat": 37.5751,
     "lng": -77.4748,
     "distance": 140,
-    "flagshipBeer": "Hop Howler (IPA), Albino Monkey (Belgian White), Woodbooger (Belgian Brown)"
+    "flagshipBeer": "Hop Howler (IPA), Albino Monkey (Belgian White), Woodbooger (Belgian Brown)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Alewerks Brewing Company",
@@ -833,7 +1583,17 @@
     "lat": 37.3269,
     "lng": -76.7747,
     "distance": 160,
-    "flagshipBeer": "Pumpkin Ale (seasonal), Bitter Valentine DIPA, Superb IPA, Tavern Brown Ale"
+    "flagshipBeer": "Pumpkin Ale (seasonal), Bitter Valentine DIPA, Superb IPA, Tavern Brown Ale",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Dirt Farm Brewing",
@@ -841,10 +1601,20 @@
     "city": "Bluemont",
     "state": "VA",
     "address": "18701 Foggy Bottom Rd, Bluemont, VA 20135",
-    "lat": 39.1110,
+    "lat": 39.111,
     "lng": -77.8339,
     "distance": 50,
-    "flagshipBeer": "Red Merl (Irish Red Ale), Fluster Cluck (seasonal fruit beer), Som' Peach (summer ale)"
+    "flagshipBeer": "Red Merl (Irish Red Ale), Fluster Cluck (seasonal fruit beer), Som' Peach (summer ale)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Benchtop Brewing Company",
@@ -855,7 +1625,17 @@
     "lat": 36.8638,
     "lng": -76.2899,
     "distance": 190,
-    "flagshipBeer": "Proven Theory (American IPA), Gong Water (hazy IPA), Walter's Brunch (coffee porter)"
+    "flagshipBeer": "Proven Theory (American IPA), Gong Water (hazy IPA), Walter's Brunch (coffee porter)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Precarious Beer Project",
@@ -866,7 +1646,17 @@
     "lat": 37.2707,
     "lng": -76.7074,
     "distance": 160,
-    "flagshipBeer": "Kung Fu Kittens (NEIPA), Everything Is Lava But the Swings Are Base (imperial IPA)"
+    "flagshipBeer": "Kung Fu Kittens (NEIPA), Everything Is Lava But the Swings Are Base (imperial IPA)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Ardent Craft Ales",
@@ -874,10 +1664,20 @@
     "city": "Richmond",
     "state": "VA",
     "address": "3200 W Leigh St, Richmond, VA 23230",
-    "lat": 37.5680,
+    "lat": 37.568,
     "lng": -77.4731,
     "distance": 140,
-    "flagshipBeer": "Ardent IPA (Citra IPA), Ardent Pilsner, Honey Ginger"
+    "flagshipBeer": "Ardent IPA (Citra IPA), Ardent Pilsner, Honey Ginger",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Final Gravity Brewing Co.",
@@ -886,9 +1686,19 @@
     "state": "VA",
     "address": "6118 Lakeside Ave, Richmond, VA 23228",
     "lat": 37.6136,
-    "lng": -77.4650,
+    "lng": -77.465,
     "distance": 140,
-    "flagshipBeer": "Venus Rising DIPA, Doppler Effect (American IPA), Fast Machine Hoppy Pilsner"
+    "flagshipBeer": "Venus Rising DIPA, Doppler Effect (American IPA), Fast Machine Hoppy Pilsner",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "New Realm Brewing",
@@ -899,7 +1709,17 @@
     "lat": 36.8434,
     "lng": -76.0328,
     "distance": 200,
-    "flagshipBeer": "Hazy Like a Fox (NEIPA), Hoplandia (West Coast IPA), Tart Blossoms Imperial Sour"
+    "flagshipBeer": "Hazy Like a Fox (NEIPA), Hoplandia (West Coast IPA), Tart Blossoms Imperial Sour",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Caboose Brewing Company",
@@ -910,7 +1730,17 @@
     "lat": 38.9032,
     "lng": -77.2588,
     "distance": 40,
-    "flagshipBeer": "Vienna, VA Lager (multi-gold Virginia Craft Brewers Cup), Bienvenidos Mexican Lager, Blackberry Gose"
+    "flagshipBeer": "Vienna, VA Lager (multi-gold Virginia Craft Brewers Cup), Bienvenidos Mexican Lager, Blackberry Gose",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Harpers Ferry Brewing",
@@ -921,7 +1751,17 @@
     "lat": 39.3151,
     "lng": -77.7392,
     "distance": 50,
-    "flagshipBeer": "Mountain Juice (NEIPA), The Needles (American IPA), Dewbrew Blonde Ale"
+    "flagshipBeer": "Mountain Juice (NEIPA), The Needles (American IPA), Dewbrew Blonde Ale",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Crooked Run Brewing",
@@ -932,7 +1772,17 @@
     "lat": 39.0347,
     "lng": -77.4287,
     "distance": 40,
-    "flagshipBeer": "Diverse range: traditional, barrel-aged stouts, coolship sours"
+    "flagshipBeer": "Diverse range: traditional, barrel-aged stouts, coolship sours",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Decipher Brewing",
@@ -943,7 +1793,17 @@
     "lat": 38.0156,
     "lng": -78.4813,
     "distance": 150,
-    "flagshipBeer": "Barley Late Kölsch (Virginia Craft Beer Cup top honors), Babington Project (barrel-aged series)"
+    "flagshipBeer": "Barley Late Kölsch (Virginia Craft Beer Cup top honors), Babington Project (barrel-aged series)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Juicy Brewing",
@@ -954,7 +1814,17 @@
     "lat": 38.9502,
     "lng": -77.4175,
     "distance": 40,
-    "flagshipBeer": "Oppaque series (NEIPAs), Mega Fresh & Mega Fruit series (fruited sours)"
+    "flagshipBeer": "Oppaque series (NEIPAs), Mega Fresh & Mega Fruit series (fruited sours)",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "The Garage Brewery",
@@ -965,7 +1835,17 @@
     "lat": 36.7695,
     "lng": -76.2391,
     "distance": 190,
-    "flagshipBeer": "Rotating selection of IPAs to lagers"
+    "flagshipBeer": "Rotating selection of IPAs to lagers",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Commonwealth Brewing Co.",
@@ -973,10 +1853,20 @@
     "city": "Virginia Beach",
     "state": "VA",
     "address": "2444 Pleasure House Rd, Virginia Beach, VA 23455",
-    "lat": 36.9070,
+    "lat": 36.907,
     "lng": -76.1237,
     "distance": 200,
-    "flagshipBeer": "Rotating selection: crisp lagers, bold IPAs, complex sours"
+    "flagshipBeer": "Rotating selection: crisp lagers, bold IPAs, complex sours",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   },
   {
     "name": "Adroit Theory Brewing Company",
@@ -985,8 +1875,18 @@
     "state": "VA",
     "address": "404 Browning Ct Unit C, Purcellville, VA 20132",
     "lat": 39.1375,
-    "lng": -77.6960,
+    "lng": -77.696,
     "distance": 50,
-    "flagshipBeer": "High-alcohol beers: hazy IPAs, fruited sours, pastry stouts, barrel-aged"
+    "flagshipBeer": "High-alcohol beers: hazy IPAs, fruited sours, pastry stouts, barrel-aged",
+    "visited": false,
+    "visitDate": null,
+    "ratings": {
+      "KC": 0,
+      "Jeff": 0,
+      "Dave": 0
+    },
+    "avgRating": 0,
+    "notes": "",
+    "untappdURL": ""
   }
 ]
