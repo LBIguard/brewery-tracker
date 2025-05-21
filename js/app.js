@@ -1136,23 +1136,67 @@ function setupCurrentLocation() {
     });
 }
 
-// Mobile view toggle
+// Enhanced mobile view toggle for iOS
 function setupMobileViewToggle() {
-    document.getElementById('showMapBtn').addEventListener('click', function() {
-        // Show map, hide list
-        document.getElementById('mapContainer').classList.remove('h-1/2');
-        document.getElementById('mapContainer').classList.add('h-full');
-        document.querySelector('.md\\:w-1\\/3').classList.add('hidden');
+    const showMapBtn = document.getElementById('showMapBtn');
+    const showListBtn = document.getElementById('showListBtn');
+    const mapContainer = document.getElementById('mapContainer');
+    const listContainer = document.querySelector('.md\\:w-1\\/3');
+    
+    if (showMapBtn && showListBtn && mapContainer && listContainer) {
+        // Map button - show map, hide list
+        showMapBtn.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            
+            // Show map, hide list
+            mapContainer.classList.remove('h-1/2');
+            mapContainer.classList.add('h-full');
+            listContainer.classList.add('hidden');
+            
+            // Update button styles
+            this.classList.add('bg-primary', 'text-white');
+            this.classList.remove('bg-white', 'dark:bg-gray-700', 'text-gray-700', 'dark:text-white');
+            showListBtn.classList.remove('bg-primary', 'text-white');
+            showListBtn.classList.add('bg-white', 'dark:bg-gray-700', 'text-gray-700', 'dark:text-white');
+            
+            // Set ARIA attributes
+            this.setAttribute('aria-pressed', 'true');
+            showListBtn.setAttribute('aria-pressed', 'false');
+            
+            // Trigger map resize event to fix any display issues
+            setTimeout(() => {
+                if (typeof map !== 'undefined' && map.invalidateSize) {
+                    map.invalidateSize();
+                }
+            }, 100);
+        }, {passive: false});
         
-        // Update button styles
-        this.classList.add('bg-primary', 'text-white');
-        this.classList.remove('bg-white', 'dark:bg-gray-700', 'text-gray-700', 'dark:text-white');
-        document.getElementById('showListBtn').classList.remove('bg-primary', 'text-white');
-        document.getElementById('showListBtn').classList.add('bg-white', 'dark:bg-gray-700', 'text-gray-700', 'dark:text-white');
-        
-        // Trigger map resize event to fix any display issues
-        setTimeout(() => map.invalidateSize(), 100);
-    });
+        // List button - show list, hide map
+        showListBtn.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            
+            // Show list, hide map
+            mapContainer.classList.add('h-1/2');
+            mapContainer.classList.remove('h-full');
+            listContainer.classList.remove('hidden');
+            
+            // Update button styles
+            this.classList.add('bg-primary', 'text-white');
+            this.classList.remove('bg-white', 'dark:bg-gray-700', 'text-gray-700', 'dark:text-white');
+            showMapBtn.classList.remove('bg-primary', 'text-white');
+            showMapBtn.classList.add('bg-white', 'dark:bg-gray-700', 'text-gray-700', 'dark:text-white');
+            
+            // Set ARIA attributes
+            this.setAttribute('aria-pressed', 'true');
+            showMapBtn.setAttribute('aria-pressed', 'false');
+        }, {passive: false});
+    }
+}
+
+// Call this function after the DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    setupMobileViewToggle();
+});
 
     document.getElementById('showListBtn').addEventListener('click', function() {
         // Show list, hide map
@@ -1501,6 +1545,45 @@ async function initApp() {
     // Set up event listeners
     setupEventListeners();
     
+    // Enhanced button event handlers for iOS compatibility
+function enhanceMobileButtons() {
+    // Fix for Add button
+    const addButton = document.getElementById('addBreweryButton');
+    if (addButton) {
+        addButton.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            document.getElementById('addBreweryModal').classList.remove('hidden');
+        }, {passive: false});
+    }
+    
+    // Fix for Stats button
+    const statsButton = document.getElementById('statsButton');
+    if (statsButton) {
+        statsButton.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            document.getElementById('statsModal').classList.remove('hidden');
+            updateStatsUI(calculateStats(breweries));
+        }, {passive: false});
+    }
+    
+    // Fix for Sync button
+    const syncButton = document.getElementById('syncButton');
+    if (syncButton) {
+        syncButton.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            document.getElementById('syncDropdown').classList.toggle('hidden');
+        }, {passive: false});
+    }
+}
+
+// Call this function after the DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    enhanceMobileButtons();
+});
+
     // Set up auto-sync
     setupAutoSync();
     
