@@ -46,336 +46,274 @@
                 <div class="dropdown relative">
                     <button id="syncButton" aria-label="Sync data" class="px-3 py-1 bg-white dark:bg-gray-800 text-beer-dark dark:text-beer-light rounded shadow hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center">
                         <svg class="h-5 w-5 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"/>
+                            <path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z" />
                         </svg>
-                        Sync Data
-                        <span id="syncStatus" class="ml-2 h-2 w-2 rounded-full bg-gray-400"></span>
+                        <div id="syncStatus" class="w-2 h-2 rounded-full bg-gray-400 ml-1"></div>
                     </button>
-                    <div id="syncDropdown" class="dropdown-menu hidden absolute right-0 mt-2 w-64 bg-white dark:bg-gray-800 rounded shadow-lg z-10">
-                        <div class="p-3 border-b border-gray-200 dark:border-gray-700">
-                            <p class="text-sm" id="lastSyncTime">Last synced: Never</p>
+                    <div id="syncDropdown" class="hidden absolute right-0 mt-2 w-48 bg-white dark:bg-gray-800 rounded-md shadow-lg z-10">
+                        <div class="p-2 border-b border-gray-200 dark:border-gray-700">
+                            <div class="flex items-center justify-between">
+                                <label for="autoSync" class="text-sm">Auto Sync</label>
+                                <input type="checkbox" id="autoSync" class="form-checkbox h-4 w-4 text-primary">
+                            </div>
+                            <p id="lastSyncTime" class="text-xs text-gray-500 dark:text-gray-400 mt-1">Last synced: Never</p>
                         </div>
-                        <button id="manualSync" class="w-full text-left px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center">
-                            <svg class="h-4 w-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"/>
-                            </svg>
-                            Sync Now
-                        </button>
-                        <div class="flex items-center px-4 py-2 border-t border-gray-200 dark:border-gray-700">
-                            <input type="checkbox" id="autoSync" class="form-checkbox h-4 w-4 text-primary" checked>
-                            <label for="autoSync" class="ml-2 text-sm">Auto-sync changes</label>
+                        <div class="p-2">
+                            <button id="manualSync" class="w-full text-left text-sm py-1 hover:text-primary">Sync Now</button>
+                            <button id="exportData" class="w-full text-left text-sm py-1 hover:text-primary">Export Data</button>
+                            <button id="importData" class="w-full text-left text-sm py-1 hover:text-primary">Import Data</button>
                         </div>
-                        <div class="border-t border-gray-200 dark:border-gray-700 my-1"></div>
-                        <button id="exportData" class="w-full text-left px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center">
-                            <svg class="h-4 w-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-                            </svg>
-                            Export to File
-                        </button>
-                        <button id="importData" class="w-full text-left px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center">
-                            <svg class="h-4 w-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M5 20h14v-2H5v2zm0-10h4v6h6v-6h4l-7-7-7 7z"/>
-                            </svg>
-                            Import from File
-                        </button>
                     </div>
                 </div>
+                <button id="currentLocationButton" aria-label="Find my location" class="p-2 rounded bg-white dark:bg-gray-800 text-beer-dark dark:text-beer-light hover:bg-gray-100 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm8.94 3A8.994 8.994 0 0 0 13 3.06V1h-2v2.06A8.994 8.994 0 0 0 3.06 11H1v2h2.06A8.994 8.994 0 0 0 11 20.94V23h2v-2.06A8.994 8.994 0 0 0 20.94 13H23v-2h-2.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"/>
+                    </svg>
+                </button>
             </div>
         </div>
     </header>
 
-    <!-- Filter Bar -->
-    <nav class="bg-gray-100 dark:bg-gray-800 p-4 shadow-sm" role="navigation" aria-label="Brewery filters">
-        <div class="container mx-auto flex flex-wrap gap-3">
-            <div class="flex-grow min-w-[200px]">
-                <input type="text" id="searchInput" aria-label="Search breweries" placeholder="Search breweries..." class="w-full px-3 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600 text-base">
-            </div>
-            <div class="min-w-[150px]">
-                <select id="stateFilter" aria-label="Filter by state" class="w-full px-3 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600 text-base">
-                    <option value="all">All States</option>
-                    <option value="MD">Maryland</option>
-                    <option value="PA">Pennsylvania</option>
-                    <option value="VA">Virginia</option>
-                </select>
-            </div>
-            <div class="min-w-[150px]">
-                <select id="visitedFilter" aria-label="Filter by visited status" class="w-full px-3 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600 text-base">
-                    <option value="all">All Breweries</option>
-                    <option value="visited">Visited</option>
-                    <option value="notVisited">Not Visited</option>
-                </select>
-            </div>
-            <div class="min-w-[150px]">
-                <select id="ratingFilter" aria-label="Filter by rating" class="w-full px-3 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600 text-base">
-                    <option value="all">All Ratings</option>
-                    <option value="5">5+ Mugs</option>
-                    <option value="4">4+ Mugs</option>
-                    <option value="3">3+ Mugs</option>
-                    <option value="2">2+ Mugs</option>
-                    <option value="1">1+ Mugs</option>
-                    <option value="0">No Rating</option>
-                </select>
-            </div>
-        </div>
-    </nav>
-
     <!-- Mobile View Toggle -->
     <div class="bg-gray-100 dark:bg-gray-800 p-2 md:hidden flex justify-center">
-        <div class="inline-flex rounded-md shadow-sm" role="group">
-            <button id="showMapBtn" class="px-4 py-2 text-sm font-medium bg-primary text-white rounded-l-lg">
+        <div class="inline-flex rounded-md shadow-sm" role="group" aria-label="View toggle">
+            <button id="showMapBtn" class="px-4 py-2 text-sm font-medium bg-primary text-white rounded-l-lg" type="button" aria-pressed="true">
                 Map
             </button>
-            <button id="showListBtn" class="px-4 py-2 text-sm font-medium bg-white dark:bg-gray-700 text-gray-700 dark:text-white rounded-r-lg">
+            <button id="showListBtn" class="px-4 py-2 text-sm font-medium bg-white dark:bg-gray-700 text-gray-700 dark:text-white rounded-r-lg" type="button" aria-pressed="false">
                 List
             </button>
         </div>
     </div>
 
-    <!-- Swipe Instructions for Mobile -->
-    <div class="bg-gray-50 dark:bg-gray-800 p-2 text-center text-sm text-gray-600 dark:text-gray-400 md:hidden">
-        <p>Swipe left to mark visited, swipe right to view on map</p>
-    </div>
-
     <!-- Main Content -->
-    <main class="flex-grow flex flex-col md:flex-row overflow-hidden" role="main">
-        <!-- Map Container -->
-        <div class="h-1/2 md:h-auto md:w-2/3 relative" id="mapContainer">
-            <div id="map"></div>
-            <div id="currentLocationButton" class="absolute bottom-4 right-4 z-[500] bg-white dark:bg-gray-800 p-2 rounded-full shadow-md cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm8.94 3A8.994 8.994 0 0 0 13 3.06V1h-2v2.06A8.994 8.994 0 0 0 3.06 11H1v2h2.06A8.994 8.994 0 0 0 11 20.94V23h2v-2.06A8.994 8.994 0 0 0 20.94 13H23v-2h-2.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"/>
-                </svg>
+    <main class="flex flex-col md:flex-row h-[calc(100vh-4rem)]">
+        <section class="md:w-1/3 p-4 overflow-y-auto">
+            <div class="mb-4">
+                <input type="text" id="searchInput" placeholder="Search breweries..." class="w-full p-2 border rounded dark:bg-gray-700 dark:border-gray-600">
             </div>
-        </div>
-        
-        <!-- Sidebar -->
-        <div class="h-1/2 md:h-auto md:w-1/3 bg-white dark:bg-gray-800 overflow-auto border-t md:border-t-0 md:border-l border-gray-200 dark:border-gray-700">
-            <div class="p-4">
-                <h2 class="text-xl font-bold mb-3">Brewery List</h2>
-                <div id="breweryList" class="space-y-3">
-                    <!-- Breweries will be populated here -->
-                    <div class="flex justify-center items-center p-4">
-                        <div class="spinner"></div>
-                    </div>
-                </div>
+            <div class="grid grid-cols-2 gap-2 mb-4">
+                <select id="stateFilter" class="p-2 border rounded dark:bg-gray-700 dark:border-gray-600">
+                    <option value="all">All States</option>
+                    <option value="MD">Maryland</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="VA">Virginia</option>
+                </select>
+                <select id="visitedFilter" class="p-2 border rounded dark:bg-gray-700 dark:border-gray-600">
+                    <option value="all">All Breweries</option>
+                    <option value="visited">Visited</option>
+                    <option value="notVisited">Not Visited</option>
+                </select>
+                <select id="ratingFilter" class="p-2 border rounded dark:bg-gray-700 dark:border-gray-600">
+                    <option value="">All Ratings</option>
+                    <option value="0">Not Rated</option>
+                    <option value="4">4+ Stars</option>
+                    <option value="4.5">4.5+ Stars</option>
+                </select>
             </div>
-        </div>
+            <div id="breweryList" class="space-y-3">
+                <!-- Brewery items will be loaded here -->
+            </div>
+        </section>
+
+        <section id="mapContainer" class="flex-1 h-1/2 md:h-full">
+            <div id="map" class="h-full"></div>
+        </section>
     </main>
 
     <!-- Brewery Details Modal -->
-    <div id="detailsModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[1000] hidden">
-        <div class="bg-white dark:bg-gray-800 rounded-lg max-w-2xl w-full max-h-[90vh] overflow-auto shadow-xl mx-4">
-            <div class="p-5 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center">
-                <h3 id="modalTitle" class="text-xl font-bold">Brewery Details</h3>
-                <button id="closeModal" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                </button>
-            </div>
-            <div class="p-5">
-                <div class="mb-4">
-                    <p id="modalRank" class="text-gray-600 dark:text-gray-400"></p>
-                    <p id="modalLocation" class="text-gray-600 dark:text-gray-400"></p>
-                    <p id="modalAddress" class="text-gray-600 dark:text-gray-400 cursor-pointer hover:text-primary"></p>
-                </div>
-                
-                <div class="mb-4 p-3 bg-gray-50 dark:bg-gray-700 rounded">
-                    <h4 class="font-bold text-gray-700 dark:text-gray-300 mb-2">Flagship/Notable Beers:</h4>
-                    <p id="modalFlagshipBeer" class="text-gray-600 dark:text-gray-400"></p>
-                </div>
-                
-                <div class="mb-4">
-                    <label class="block text-gray-700 dark:text-gray-300 font-bold mb-2">Visit Status</label>
-                    <div class="flex items-center">
-                        <input type="checkbox" id="visitedCheckbox" class="form-checkbox h-5 w-5 text-primary">
-                        <label for="visitedCheckbox" class="ml-2">Visited</label>
-                    </div>
-                    <div id="visitDateContainer" class="mt-2 hidden">
-                        <label for="visitDate" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Date Visited</label>
-                        <input type="date" id="visitDate" class="mt-1 block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base">
-                    </div>
-                </div>
-                
-                <div class="mb-4">
-                    <label class="block text-gray-700 dark:text-gray-300 font-bold mb-2">Ratings</label>
-                    <div class="space-y-3">
-                        <div class="flex items-center">
-                            <span class="w-16">KC:</span>
-                            <div class="flex" id="kcRating">
-                                <!-- Rating mugs will be added here -->
-                            </div>
-                        </div>
-                        <div class="flex items-center">
-                            <span class="w-16">Jeff:</span>
-                            <div class="flex" id="jeffRating">
-                                <!-- Rating mugs will be added here -->
-                            </div>
-                        </div>
-                        <div class="flex items-center">
-                            <span class="w-16">Dave:</span>
-                            <div class="flex" id="daveRating">
-                                <!-- Rating mugs will be added here -->
-                            </div>
-                        </div>
-                        <div class="flex items-center pt-2 border-t border-gray-200 dark:border-gray-700">
-                            <span class="w-16 font-bold">Average:</span>
-                            <span id="avgRating" class="font-bold">Not rated</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="mb-4">
-                    <label for="breweryNotes" class="block text-gray-700 dark:text-gray-300 font-bold mb-2">Notes</label>
-                    <textarea id="breweryNotes" rows="4" class="block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base"></textarea>
-                </div>
-                
-                <div class="mb-4">
-                    <label for="untappdURL" class="block text-gray-700 dark:text-gray-300 font-bold mb-2">Untappd URL</label>
-                    <input type="text" id="untappdURL" class="block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base" placeholder="e.g. https://untappd.com/BlackFlagBrewingCompany">
-                    <div class="mt-2 flex">
-                        <button id="testUntappdLink" class="text-sm text-primary hover:underline">
-                            Test URL
-                        </button>
-                        <span class="mx-2 text-gray-400">|</span>
-                        <button id="fixCommonUntappdErrors" class="text-sm text-primary hover:underline">
-                            Fix Common Errors
-                        </button>
-                    </div>
-                </div>
-                
-                <div class="flex items-center justify-between pt-3 border-t border-gray-200 dark:border-gray-700">
-                    <a id="untappdLink" href="#" target="_blank" class="text-primary hover:underline flex items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-                            <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+    <div id="detailsModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg max-w-md w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-4 border-b border-gray-200 dark:border-gray-700">
+                <div class="flex justify-between items-center">
+                    <h2 id="modalTitle" class="text-xl font-bold">Brewery Name</h2>
+                    <button id="closeModal" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                         </svg>
-                        Open in Untappd
-                    </a>
-                    <button id="saveBrewery" class="px-4 py-2 bg-primary text-white rounded hover:bg-opacity-90">
-                        Save
                     </button>
+                </div>
+            </div>
+            <div class="p-4">
+                <p id="modalRank" class="mb-2">Rank: #1</p>
+                <p id="modalLocation" class="mb-2">Location: City, State</p>
+                <p id="modalAddress" class="mb-2 cursor-pointer text-blue-500 hover:underline">Address: 123 Main St</p>
+                
+                <div class="mb-4">
+                    <h3 class="font-bold mb-1">Flagship Beers:</h3>
+                    <div id="modalFlagshipBeer">Loading...</div>
+                </div>
+                
+                <div class="mb-4">
+                    <label class="flex items-center">
+                        <input type="checkbox" id="visitedCheckbox" class="form-checkbox h-4 w-4 text-primary">
+                        <span class="ml-2">Visited</span>
+                    </label>
+                    <div id="visitDateContainer" class="mt-2 hidden">
+                        <label for="visitDate" class="block text-sm">Visit Date:</label>
+                        <input type="date" id="visitDate" class="mt-1 p-2 border rounded w-full dark:bg-gray-700 dark:border-gray-600">
+                    </div>
+                </div>
+                
+                <div class="mb-4">
+                    <h3 class="font-bold mb-2">Ratings:</h3>
+                    <div class="grid grid-cols-3 gap-4">
+                        <div>
+                            <p class="text-sm mb-1">KC:</p>
+                            <div id="kcRating" class="flex"></div>
+                        </div>
+                        <div>
+                            <p class="text-sm mb-1">Jeff:</p>
+                            <div id="jeffRating" class="flex"></div>
+                        </div>
+                        <div>
+                            <p class="text-sm mb-1">Dave:</p>
+                            <div id="daveRating" class="flex"></div>
+                        </div>
+                    </div>
+                    <p class="mt-2">Average: <span id="avgRating">Not rated</span></p>
+                </div>
+                
+                <div class="mb-4">
+                    <label for="breweryNotes" class="block font-bold mb-1">Notes:</label>
+                    <textarea id="breweryNotes" class="w-full p-2 border rounded dark:bg-gray-700 dark:border-gray-600" rows="3"></textarea>
+                </div>
+                
+                <div class="mb-4">
+                    <label for="untappdURL" class="block font-bold mb-1">Untappd URL:</label>
+                    <div class="flex">
+                        <input type="text" id="untappdURL" class="flex-1 p-2 border rounded-l dark:bg-gray-700 dark:border-gray-600" placeholder="https://untappd.com/...">
+                        <button id="testUntappdLink" class="bg-gray-200 dark:bg-gray-600 px-2 py-1 rounded-r border border-l-0 dark:border-gray-600">Test</button>
+                    </div>
+                    <div class="flex mt-2">
+                        <a id="untappdLink" href="#" target="_blank" class="text-blue-500 hover:underline text-sm mr-2">Open in Untappd</a>
+                        <button id="fixCommonUntappdErrors" class="text-sm text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">Fix common errors</button>
+                    </div>
+                </div>
+                
+                <div class="flex justify-end">
+                    <button id="saveBrewery" class="px-4 py-2 bg-primary text-white rounded hover:bg-opacity-90">Save</button>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Stats Modal -->
-    <div id="statsModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[1000] hidden">
-        <div class="bg-white dark:bg-gray-800 rounded-lg max-w-md w-full max-h-[90vh] overflow-auto shadow-xl mx-4">
-            <div class="p-5 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center">
-                <h3 class="text-xl font-bold">Brewery Statistics</h3>
-                <button id="closeStatsModal" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                </button>
+    <div id="statsModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg max-w-md w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-4 border-b border-gray-200 dark:border-gray-700">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-xl font-bold">Brewery Statistics</h2>
+                    <button id="closeStatsModal" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="p-5">
-                <div class="mb-6">
-                    <h4 class="text-lg font-semibold mb-2">Progress</h4>
-                    <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-4">
-                        <div id="progressBar" class="bg-primary h-4 rounded-full" style="width: 0%"></div>
+            <div class="p-4">
+                <div class="mb-4">
+                    <h3 class="font-bold mb-2">Progress</h3>
+                    <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+                        <div id="progressBar" class="bg-primary h-2.5 rounded-full" style="width: 0%"></div>
                     </div>
-                    <p id="progressText" class="text-sm mt-1 text-center">0 of 0 breweries visited (0%)</p>
+                    <p id="progressText" class="text-sm mt-1">0 of 0 breweries visited (0%)</p>
                 </div>
                 
-                <div class="mb-6">
-                    <h4 class="text-lg font-semibold mb-2">Top Rated Breweries</h4>
-                    <ul id="topRatedList" class="space-y-2">
+                <div class="mb-4">
+                    <h3 class="font-bold mb-2">Average Rating</h3>
+                    <p id="avgOverallRating">No ratings yet</p>
+                </div>
+                
+                <div class="mb-4">
+                    <h3 class="font-bold mb-2">Top Rated Breweries</h3>
+                    <ul id="topRatedList" class="list-none space-y-1">
                         <li class="text-gray-500 dark:text-gray-400 italic">No rated breweries yet</li>
                     </ul>
                 </div>
                 
-                <div class="mb-6">
-                    <h4 class="text-lg font-semibold mb-2">Recent Visits</h4>
-                    <ul id="recentVisitsList" class="space-y-2">
+                <div class="mb-4">
+                    <h3 class="font-bold mb-2">Recent Visits</h3>
+                    <ul id="recentVisitsList" class="list-none space-y-1">
                         <li class="text-gray-500 dark:text-gray-400 italic">No visited breweries yet</li>
                     </ul>
                 </div>
                 
-                <div class="grid grid-cols-2 gap-4">
-                    <div class="bg-gray-100 dark:bg-gray-700 p-3 rounded">
-                        <p class="text-sm text-gray-500 dark:text-gray-400">Average Rating</p>
-                        <p id="avgOverallRating" class="text-xl font-bold">-</p>
-                    </div>
-                    <div class="bg-gray-100 dark:bg-gray-700 p-3 rounded">
-                        <p class="text-sm text-gray-500 dark:text-gray-400">Breweries by State</p>
-                        <p id="stateBreakdown" class="text-sm mt-1"></p>
+                <div>
+                    <h3 class="font-bold mb-2">State Breakdown</h3>
+                    <div id="stateBreakdown" class="space-y-1">
+                        <!-- State breakdown will be populated here -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    <!-- Add New Brewery Modal -->
-    <div id="addBreweryModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[1000] hidden">
-        <div class="bg-white dark:bg-gray-800 rounded-lg max-w-2xl w-full max-h-[90vh] overflow-auto shadow-xl mx-4">
-            <div class="p-5 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center">
-                <h3 class="text-xl font-bold">Add New Brewery</h3>
-                <button id="closeAddBreweryModal" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                </button>
+
+    <!-- Add Brewery Modal -->
+    <div id="addBreweryModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg max-w-md w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-4 border-b border-gray-200 dark:border-gray-700">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-xl font-bold">Add New Brewery</h2>
+                    <button id="closeAddBreweryModal" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="p-5">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                    <div>
-                        <label for="newBreweryName" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Brewery Name*</label>
-                        <input type="text" id="newBreweryName" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base" required>
-                    </div>
-                    <div>
-                        <label for="newBreweryRank" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Rank</label>
-                        <input type="number" id="newBreweryRank" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base" min="1">
-                    </div>
+            <div class="p-4">
+                <div class="mb-4">
+                    <label for="newBreweryName" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Brewery Name*</label>
+                    <input type="text" id="newBreweryName" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base" required>
                 </div>
                 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                <div class="mb-4">
+                    <label for="newBreweryRank" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Rank</label>
+                    <input type="number" id="newBreweryRank" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base" min="1">
+                </div>
+                
+                <div class="grid grid-cols-2 gap-4 mb-4">
                     <div>
                         <label for="newBreweryCity" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">City*</label>
                         <input type="text" id="newBreweryCity" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base" required>
                     </div>
+                    
                     <div>
                         <label for="newBreweryState" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">State*</label>
                         <select id="newBreweryState" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base" required>
-                            <option value="">Select State</option>
-                            <option value="MD">Maryland (MD)</option>
-                            <option value="PA">Pennsylvania (PA)</option>
-                            <option value="VA">Virginia (VA)</option>
-                            <option value="DE">Delaware (DE)</option>
-                            <option value="DC">Washington D.C.</option>
-                            <option value="WV">West Virginia (WV)</option>
-                            <option value="NJ">New Jersey (NJ)</option>
-                            <option value="NY">New York (NY)</option>
-                            <option value="OH">Ohio (OH)</option>
+                            <option value="">Select a state</option>
+                            <option value="MD">Maryland</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="VA">Virginia</option>
                             <option value="other">Other</option>
                         </select>
                     </div>
-                    <div id="otherStateContainer" class="hidden">
-                        <label for="otherState" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Specify State*</label>
-                        <input type="text" id="otherState" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base">
-                    </div>
+                </div>
+                
+                <div id="otherStateContainer" class="mb-4 hidden">
+                    <label for="otherState" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Other State*</label>
+                    <input type="text" id="otherState" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base">
                 </div>
                 
                 <div class="mb-4">
-                    <label for="newBreweryAddress" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Full Address*</label>
-                    <input type="text" id="newBreweryAddress" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base" required placeholder="Street, City, State, ZIP">
+                    <label for="newBreweryAddress" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Address*</label>
+                    <input type="text" id="newBreweryAddress" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base" required>
                 </div>
                 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                <div class="grid grid-cols-2 gap-4 mb-4">
                     <div>
                         <label for="newBreweryLat" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Latitude*</label>
-                        <input type="number" id="newBreweryLat" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base" required step="any" placeholder="e.g. 39.2092">
+                        <input type="text" id="newBreweryLat" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base" required>
                     </div>
                     <div>
                         <label for="newBreweryLng" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Longitude*</label>
-                        <input type="number" id="newBreweryLng" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base" required step="any" placeholder="e.g. -76.8605">
+                        <input type="text" id="newBreweryLng" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base" required>
                     </div>
                 </div>
                 
                 <div class="mb-4">
-                    <label for="newBreweryFlagshipBeer" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Flagship/Notable Beers</label>
+                    <label for="newBreweryFlagshipBeer" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Flagship Beers</label>
                     <textarea id="newBreweryFlagshipBeer" rows="3" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 text-base" placeholder="List flagship beers, styles, awards, etc."></textarea>
                 </div>
                 
