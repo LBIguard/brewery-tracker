@@ -157,6 +157,34 @@
         z-index: 1;
     }
     
+/* iOS-specific touch improvements */
+@media (max-width: 768px) {
+    button, 
+    [role="button"],
+    .brewery-list-item {
+        cursor: pointer;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        touch-action: manipulation;
+    }
+    
+    /* Increase touch target size */
+    #showMapBtn, 
+    #showListBtn,
+    #addBreweryButton,
+    #statsButton,
+    #syncButton {
+        min-height: 44px;
+        min-width: 44px;
+        padding: 10px 15px;
+    }
+    
+    /* Fix for iOS Safari's handling of fixed elements */
+    .fixed {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+
     /* Make sure buttons are above the touch target */
     .quick-action-btn {
         position: relative;
