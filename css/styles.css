@@ -1,1 +1,171 @@
+/* Beer mug styles */
+.beer-mug-empty {
+    filter: opacity(0.4);
+}
 
+.beer-mug-full {
+    filter: opacity(1);
+}
+
+.rating-mug {
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.rating-mug:hover {
+    transform: scale(1.2);
+}
+
+.rating-mug.selected {
+    filter: opacity(1);
+}
+
+.rating-mug.unselected {
+    filter: opacity(0.4);
+}
+
+/* Map styles */
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.brewery-popup {
+    max-width: 250px;
+}
+
+.brewery-popup h3 {
+    margin: 0 0 5px 0;
+    color: #8b4513;
+}
+
+.brewery-popup p {
+    margin: 5px 0;
+}
+
+.legend {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.legend svg {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Dark mode styles */
+.dark .legend {
+    background: #333;
+    color: #fff;
+}
+
+.dark .leaflet-popup-content-wrapper {
+    background: #333;
+    color: #fff;
+}
+
+.dark .leaflet-popup-tip {
+    background: #333;
+}
+
+.dark .brewery-popup h3 {
+    color: #f8b64c;
+}
+
+/* Loading spinner */
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: #5D5CDE;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.dark .spinner {
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-left-color: #5D5CDE;
+}
+
+/* Toast notification */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2000;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.toast.success {
+    background-color: #4CAF50;
+}
+
+.toast.error {
+    background-color: #F44336;
+}
+
+.toast.info {
+    background-color: #2196F3;
+}
+
+/* Mobile improvements */
+@media (max-width: 768px) {
+    .brewery-list-item {
+        padding: 12px;
+        margin-bottom: 8px;
+        position: relative;
+    }
+    
+    .brewery-list-item h3 {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+    
+    /* Increase touch target size */
+    .brewery-list-item::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    
+    /* Make sure buttons are above the touch target */
+    .quick-action-btn {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+/* User location marker */
+.user-location-marker {
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px white;
+}
