@@ -1042,15 +1042,29 @@ function handleSwipe(element) {
 
 // Pull-to-refresh functionality
 function setupPullToRefresh() {
-    // Set up touch event listeners
+    // Add more strict conditions to enable pull-to-refresh
     document.addEventListener('touchstart', function(e) {
+        // Only enable when at absolute top AND in the brewery list view
+        const isBreweryList = e.target.closest('#breweryList') || 
+                             e.target.closest('.md\\:w-1\\/3');
+        
         touchStartY = e.touches[0].clientY;
         
-        // Only enable pull-to-refresh at the top of the page
-        if (window.scrollY <= 0) {
+        // Only enable pull-to-refresh at the top of the page AND in the list section
+        if (window.scrollY <= 0 && isBreweryList) {
             isPulling = true;
+        } else {
+            isPulling = false;
         }
     }, { passive: true });
+
+    // Disable pull-to-refresh when touching header elements
+    const header = document.querySelector('header');
+    if (header) {
+        header.addEventListener('touchstart', function(e) {
+            isPulling = false;
+        }, { passive: true });
+    }
 
     document.addEventListener('touchmove', function(e) {
         if (!isPulling) return;
