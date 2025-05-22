@@ -50,7 +50,7 @@
                         </svg>
                         <div id="syncStatus" class="w-2 h-2 rounded-full bg-gray-400 ml-1"></div>
                     </button>
-                    <div id="syncDropdown" class="hidden absolute right-0 mt-2 w-48 bg-white dark:bg-gray-800 rounded-md shadow-lg z-10">
+                    <div id="syncDropdown" class="hidden absolute right-0 mt-2 w-48 bg-white dark:bg-gray-800 rounded-md shadow-lg z-[9999]">
                         <div class="p-2 border-b border-gray-200 dark:border-gray-700">
                             <div class="flex items-center justify-between">
                                 <label for="autoSync" class="text-sm">Auto Sync</label>
@@ -349,7 +349,7 @@
     </div>
 
     <!-- Loading Overlay -->
-    <div id="loadingOverlay" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[2000] hidden">
+    <div id="loadingOverlay" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[9999] hidden">
         <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl flex flex-col items-center">
             <div class="spinner mb-4 w-12 h-12"></div>
             <p id="loadingMessage" class="text-lg font-semibold">Loading data...</p>
@@ -357,8 +357,8 @@
     </div>
 
     <!-- Toast Notification -->
-    <div id="toast" class="toast">
-        <span id="toastMessage"></span>
+    <div id="toast" class="toast z-[9999]">
+        <!-- toast content -->
     </div>
 
     <!-- Pull-to-refresh Indicator -->
