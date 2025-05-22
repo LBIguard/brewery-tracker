@@ -39,7 +39,7 @@
     },
     "avgRating": 4,
     "notes": "",
-    "untappdURL": ""
+    "untappdURL": "https://untappd.com/GuinnessOGBBalt"
   },
   {
     "name": "Burley Oak Brewing Company",
@@ -60,7 +60,7 @@
     },
     "avgRating": 0,
     "notes": "",
-    "untappdURL": ""
+    "untappdURL": "https://untappd.com/burleyoakbrewery"
   },
   {
     "name": "Cushwa Brewing Company",
@@ -81,7 +81,7 @@
     },
     "avgRating": 0,
     "notes": "",
-    "untappdURL": ""
+    "untappdURL": "https://untappd.com/CushwaBrewingCompany"
   },
   {
     "name": "Black Flag Brewing Co.",
@@ -117,11 +117,11 @@
     "visited": false,
     "visitDate": null,
     "ratings": {
-      "KC": 4,
+      "KC": 5,
       "Jeff": 0,
       "Dave": 0
     },
-    "avgRating": 4,
+    "avgRating": 5,
     "notes": "",
     "untappdURL": ""
   },
@@ -186,7 +186,7 @@
     },
     "avgRating": 0,
     "notes": "",
-    "untappdURL": ""
+    "untappdURL": "https://untappd.com/CrookedCrabBrewingCompany"
   },
   {
     "name": "Heavy Seas Beer",
@@ -354,7 +354,7 @@
     },
     "avgRating": 0,
     "notes": "",
-    "untappdURL": ""
+    "untappdURL": "https://untappd.com/SaintsRowBrewing"
   },
   {
     "name": "Evolution Craft Brewing",
