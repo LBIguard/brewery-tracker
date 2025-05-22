@@ -37,9 +37,9 @@
       "Jeff": 0,
       "Dave": 0
     },
-    "avgRating": 0,
+    "avgRating": 4,
     "notes": "",
-    "untappdURL": "https://untappd.com/GuinnessOGBBalt"
+    "untappdURL": ""
   },
   {
     "name": "Burley Oak Brewing Company",
@@ -117,11 +117,11 @@
     "visited": false,
     "visitDate": null,
     "ratings": {
-      "KC": 5,
+      "KC": 4,
       "Jeff": 0,
       "Dave": 0
     },
-    "avgRating": 5,
+    "avgRating": 4,
     "notes": "",
     "untappdURL": ""
   },
