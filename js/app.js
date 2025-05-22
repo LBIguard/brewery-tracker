@@ -1,3 +1,37 @@
+// Add to the top of your app.js file
+let lastRefreshTime = 0;
+const refreshCooldown = 2000; // 2 seconds cooldown
+
+// Then modify your touchend handler in setupPullToRefresh
+document.addEventListener('touchend', function() {
+    if (!isPulling) return;
+    
+    const pullDistance = touchEndY - touchStartY;
+    const now = Date.now();
+    
+    // Reset the indicator
+    document.getElementById('pullIndicator').style.transform = 'translateY(-100%)';
+    
+    // Only allow refresh if cooldown period has passed
+    if (pullDistance >= pullThreshold && now - lastRefreshTime > refreshCooldown) {
+        // Perform refresh
+        showLoading('Refreshing data...');
+        lastRefreshTime = now;
+        
+        // Reload data
+        setTimeout(() => {
+            // Reload from localStorage or JSON
+            loadBreweryData().then(data => {
+                breweries = data;
+                initializeBreweries();
+                hideLoading();
+                showToast('Data refreshed successfully!', 'success');
+            });
+        }, 1000);
+    }
+    
+    isPulling = false;
+}, { passive: true });
 // Check for dark mode
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     document.documentElement.classList.add('dark');
